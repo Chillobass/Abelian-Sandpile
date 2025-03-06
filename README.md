@@ -7,8 +7,9 @@ user chooses:
 4) flag -o directory where .bmp files are going to be saved
 
 .tsv input file format:
-x_coordinate  y_coordinate number_of_sand_grains
-x_coordinate  y_coordinate number_of_sand_grains
+- x_coordinate  y_coordinate number_of_sand_grains
+- x_coordinate  y_coordinate number_of_sand_grains
 ...
 (all separated by tabs)
 
+All project done without using std containers in educational purposes
