@@ -53,7 +53,6 @@ int main(int argc, char** argv) {
 
     Grid a(input_file);
 
-    // a.printGrid();
     std::cout << '\n';
 
     if (freq != 0){
@@ -76,7 +75,6 @@ int main(int argc, char** argv) {
         }
         drawing_picture(a, output_file, -1);
     }
-    // a.printGrid();
 
     delete[] input_file;
     delete[] output_file;
